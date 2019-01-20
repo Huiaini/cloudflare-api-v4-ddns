@@ -12,15 +12,19 @@
     vim cf-v4-ddns.sh
     
  API key, see https://www.cloudflare.com/a/account/my-account
+ 
     CFKEY= （Cloudflare 账号KEY）
     
  Username, eg: user@example.com
+ 
     CFUSER=（Cloudflare 邮箱）
     
- Zone name, eg: example.com   
+ Zone name, eg: example.com  
+ 
     CFZONE_NAME=（Cloudflare 主域名）
     
  Hostname to update, eg: homeserver.example.com
+ 
     CFRECORD_NAME=（Cloudflare 二级域名）
     
 #### 运行
