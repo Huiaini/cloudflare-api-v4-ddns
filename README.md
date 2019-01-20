@@ -31,4 +31,10 @@
  
     bash cf-v4-ddns.sh
     
+#### Cron定时任务
+
+echo  '*/5 * * * * bash /root/cf-v4-ddns.sh ' >>/var/spool/cron/root
+
+#### 就能愉快的使用了
+    
 ## 感谢 [yulewang]（https://github.com/yulewang?tab=repositories） 提供脚本
