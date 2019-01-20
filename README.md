@@ -4,7 +4,7 @@
 
 ### 食用：
 
-    wget --no-check-certificate "https://raw.githubusercontent.com/Huiaini/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/Huiaini/cloudflare-api-v4-ddns/master/cf-v4-ddns.sh
     
     chmod +x cf-v4-ddns.sh
     
