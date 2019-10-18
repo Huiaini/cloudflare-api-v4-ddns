@@ -34,7 +34,7 @@
     
 #### Cron定时任务
 
-    echo  '*/5 * * * * bash /root/cf-v4-ddns.sh ' >>/var/spool/cron/root
+    echo '*/5 * * * * bash /root/cf-v4-ddns.sh' >>/var/spool/cron/root
     
 #### 要是需要每次运行都要推送 IP 至 Cloudflare ，vi 命令修改第 45 行为
 
