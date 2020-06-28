@@ -42,4 +42,4 @@
 
 #### 就能愉快的使用了
     
-## 感谢 [yulewang]（https://github.com/yulewang?tab=repositories） 提供脚本
+## 感谢 [YuLeWang]（https://github.com/yulewang） 提供脚本
