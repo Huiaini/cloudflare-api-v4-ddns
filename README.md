@@ -28,18 +28,18 @@
  
     CFRECORD_NAME=（Cloudflare 二级域名）
     
-#### 运行
+#### Srart
  
     bash cf-v4-ddns.sh
     
-#### Cron定时任务
+#### Cron Scheduled tasks
 
     echo '*/5 * * * * bash /root/cf-v4-ddns.sh' >>/var/spool/cron/root
     
-#### 要是需要每次运行都要推送 IP 至 Cloudflare ，vi 命令修改第 45 行为
+#### You need to push the IP to Cloudflare every time you run it. Use the vi command to modify line 45.
 
     FORCE=true
 
-#### 就能愉快的使用了
+#### You can use it happily.
     
-## 感谢 [YuLeWang]（https://github.com/yulewang） 提供脚本
+## Thank [YuLeWang]（https://github.com/yulewang） Provide Script.
